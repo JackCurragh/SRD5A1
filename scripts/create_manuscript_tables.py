@@ -81,11 +81,6 @@ def main():
     write_table(cds_centric_subset(atg_stop), "cds_centric_atg_stop.tsv")
     write_table(cds_centric_subset(stop_free), "cds_centric_stop_free.tsv")
 
-    near_cognate_path = RESULTS_DIR / "triple_frame_riboseq" / "near_cognate_with_riboseq.tsv"
-    if near_cognate_path.exists():
-        near_cognate = load_table(near_cognate_path)
-        write_table(cds_centric_subset(near_cognate), "cds_centric_longest_orf.tsv")
-
     pd.DataFrame(COLUMN_DESCRIPTIONS, columns=["column_name", "description"]).to_csv(
         OUTPUT_DIR / "COLUMN_DESCRIPTIONS.tsv", sep="\t", index=False
     )
