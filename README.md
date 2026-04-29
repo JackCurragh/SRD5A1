@@ -11,6 +11,7 @@ This repository contains the notebooks and helper scripts used to identify regio
 - `notebooks/01_triple_frame_regions.ipynb`: scans GENCODE v45 transcripts for triple-frame regions using stop-free and ATG-to-stop definitions.
 - `notebooks/02_triple_frame_cds_context.ipynb`: classifies candidate regions by position relative to annotated CDSs.
 - `notebooks/03_riboseq_scoring.ipynb`: maps transcript-space candidates to genomic coordinates and scores Ribo-seq bigWig coverage by frame.
+- `scripts/create_manuscript_tables.py`: creates manuscript-ready supplementary tables from the scored overlap tables.
 - `scripts/update_manuscript_figures.py`: regenerates the manuscript distribution figures from processed tables.
 - `scripts/analyze_codon_frequencies.py` and `scripts/plot_codon_frequencies.py`: supporting codon-frequency analysis.
 - `pixi.toml` and `pixi.lock`: reproducible software environment.
@@ -55,6 +56,7 @@ Run the notebooks in order:
 The figure script expects processed tables under `results/triple_frame_riboseq/` and `results/revcomp_triple_frame/`:
 
 ```bash
+python scripts/create_manuscript_tables.py
 python scripts/update_manuscript_figures.py
 ```
 
