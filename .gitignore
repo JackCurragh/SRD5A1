@@ -1,0 +1,31 @@
+# macOS and editor metadata
+.DS_Store
+.claude/
+.ipynb_checkpoints/
+
+# Python and Pixi environments
+.venv/
+venv/
+.pixi/
+*.egg-info/
+__pycache__/
+*.py[cod]
+
+# Large public inputs and local downloads
+annotation.gtf
+transcripts.fa
+*.bigWig
+*.bw
+*.bb
+*.bed
+224957a0.pdf
+meeting-*.ics
+*.xpi
+*.docx
+
+# Generated results are reproducible from the notebooks and public inputs.
+results/
+
+# Internal one-off notes and helpers.
+RESULTS.md
+update_cats.py

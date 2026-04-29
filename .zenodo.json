@@ -1,0 +1,19 @@
+{
+  "title": "SRD5A1 triple-frame translation analysis source code",
+  "upload_type": "software",
+  "description": "Source code for the genome-wide triple-frame translation analyses reported in the manuscript 'Human SRD5A1 as a case of gene expression indel-resistance in triple-coding region.'",
+  "creators": [
+    {
+      "name": "Tierney, Jack A. S."
+    }
+  ],
+  "license": "mit",
+  "keywords": [
+    "ribosome profiling",
+    "overlapping ORFs",
+    "triple-frame translation",
+    "SRD5A1",
+    "GENCODE"
+  ],
+  "access_right": "open"
+}

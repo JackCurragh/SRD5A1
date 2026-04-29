@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived software release and the associated manuscript."
+title: "SRD5A1 triple-frame translation analysis source code"
+type: software
+authors:
+  - family-names: "Tierney"
+    given-names: "Jack A. S."
+repository-code: "https://github.com/JackCurragh/SRD5A1"
+license: "MIT"
+version: "1.0.0"
+date-released: "2026-04-29"
+keywords:
+  - ribosome profiling
+  - overlapping ORFs
+  - triple-frame translation
+  - SRD5A1
+  - GENCODE
