@@ -8,7 +8,7 @@ This repository contains the notebooks and helper scripts used to identify regio
 
 ## Repository Contents
 
-- `notebooks/01_triple_frame_regions.ipynb`: scans GENCODE v45 transcripts for triple-frame regions using stop-free, ATG-to-stop, and longest-ORF definitions.
+- `notebooks/01_triple_frame_regions.ipynb`: scans GENCODE v45 transcripts for triple-frame regions using stop-free and ATG-to-stop definitions.
 - `notebooks/02_triple_frame_cds_context.ipynb`: classifies candidate regions by position relative to annotated CDSs.
 - `notebooks/03_riboseq_scoring.ipynb`: maps transcript-space candidates to genomic coordinates and scores Ribo-seq bigWig coverage by frame.
 - `scripts/update_manuscript_figures.py`: regenerates the manuscript distribution figures from processed tables.
